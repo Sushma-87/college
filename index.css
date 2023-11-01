@@ -1,0 +1,238 @@
+html{
+    
+}
+*{
+    margin: 0;
+}
+nav{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    position: absolute;
+    right: 0;
+    position: fixed;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    /* display: flex; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    cursor: grab;
+}
+/* nav a:hover:not(:last-child){
+    color:red
+} */
+/* nav a:last-child{
+    height: 30px;
+    width: fit-content;
+    /* background-color: blue;
+    border-radius: 10px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15PX; */
+/* } */
+.nav h1{
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+.home{
+    height:100vh;
+    width: 100%;
+    /* background-color: brown; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.home h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.home h1 span{
+   
+    letter-spacing: 5px;
+    background-image: linear-gradient(grey,black );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-position-y:10px ;
+    background-size: cover;
+
+}
+.home h3{
+    font-family: reem kulfi;
+    font-size: 30px;
+
+}
+
+.about{
+    height:100vh;
+    width: 100%;
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-evenly;
+}
+
+.box1{
+   height: 200px;
+   width: 400px;
+   margin-left: -200px;
+}
+.box1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.box1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.box2{
+    height: 300px;
+    width: 400px;
+    margin-left: -200px;
+ }
+ .box2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.box2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ .box3{
+    height: 200px;
+    width: 400px;
+    margin-top: 400px;
+    margin-left: -800px;
+    left: -100px;
+ }
+ .box3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.box3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Admissions{
+    height:100vh ;
+    width: 100%;
+    /* background-color: rgb(28, 203, 216); */
+}
+
+.annualday{
+    height:100vh ;
+    width: 100%;
+    /* background-color: rgb(218, 77, 164); */
+    flex-direction: row;
+
+}
+.contact{
+    height:100vh ;
+    width: 100%;
+    /* background-color: rgb(189, 228, 99); */
+
+}
+.footer{
+    background-color: #182424;
+    position:relative;
+    bottom: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    color: azure; 
+    
+}
+.back{
+    background-color: #385f5f;
+   color: #E5E3E2;
+    height: 30px;
+    width: 100%;
+    
+}
+.back a{
+    font-size:20px;
+    text-decoration: none;
+    color: #E5E3E2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer .f1h{
+    
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    left: 320px;
+    top: 20px;
+    height: 150px;
+     width: 130px;
+    flex-direction:column;
+   
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+}
+.f1h p{
+    font-size: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer .f2h{
+    
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    left: 260px;
+    top: 0px;
+    height: 150px;
+     width: 150px;
+    flex-direction: column;
+    
+   
+}
+.f2h p{
+    margin-top: 20px;
+    font-size: 18px;
+    align-content: flex-start;
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+}
+.footer .f3h{
+    
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    left: 490px;
+    top: 0px;
+    height: 150px;
+     width: 170px;
+    flex-direction:column;
+   
+}
+.f3{
+    display: flex;
+    flex-direction: row;
+}
+.f3h a{
+    margin-top: 20px;
+} 
+.map{
+    margin-top: 40px;
+    display: flex;
+    /* justify-content:space-around;  */
+    width: 100%;
+    height: 200px;
+    
+}
